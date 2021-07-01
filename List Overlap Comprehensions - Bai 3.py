@@ -4,7 +4,7 @@ def List_Overlap_Comprehensions(L1,L2):
     if not L:
         print ("Khong co phan tu trung")
     else:
-        print (set([i for i in L1 if i in L2 ]))
+        print (L)
 
 n=int(input("Nhap do dai list n: "))
 x=random.sample(range(1,101),n)
